@@ -1463,10 +1463,12 @@ assign-symbols@^1.0.0:
   resolved "https://registry.yarnpkg.com/assign-symbols/-/assign-symbols-1.0.0.tgz#59667f41fadd4f20ccbc2bb96b8d4f7f78ec0367"
   integrity sha1-WWZ/QfrdTyDMvCu5a41Pf3jsA2c=
 
-ast-types@0.13.1:
-  version "0.13.1"
-  resolved "https://registry.yarnpkg.com/ast-types/-/ast-types-0.13.1.tgz#9461428a270c5a27fda44b738dd3bab2e9353003"
-  integrity sha512-b+EeK0WlzrSmpMw5jktWvQGxblpWnvMrV+vOp69RLjzGiHwWV0vgq75DPKtUjppKni3yWwSW8WLGV3Ch/XIWcQ==
+ast-types@0.14.1:
+  version "0.14.1"
+  resolved "https://registry.yarnpkg.com/ast-types/-/ast-types-0.14.1.tgz#0b415043770d7a2cbe4b2770271cbd7d2c9f61b9"
+  integrity sha512-pfSiukbt23P1qMhNnsozLzhMLBs7EEeXqPyvPmnuZM+RMfwfqwDbSVKYflgGuVI7/VehR4oMks0igzdNAg4VeQ==
+  dependencies:
+    tslib "^2.0.1"
 
 astral-regex@^1.0.0:
   version "1.0.0"
@@ -6632,15 +6634,16 @@ readdirp@^2.2.1:
     micromatch "^3.1.10"
     readable-stream "^2.0.2"
 
-recast@^0.18.1:
-  version "0.18.1"
-  resolved "https://registry.yarnpkg.com/recast/-/recast-0.18.1.tgz#dd1788cfa403be8be06a10f201317f881adc602b"
-  integrity sha512-Ri42yIOwHetqKgEhQSS4N1B9wSLn+eYcyLoQfuSpvd661Jty1Q3P0FXkzjIQ9XxTN+3+kRu1JFXbRmUCUmde5Q==
+recast@^0.20.2:
+  version "0.20.3"
+  resolved "https://registry.yarnpkg.com/recast/-/recast-0.20.3.tgz#ac9387e4a59e5c8caef9057a35e306646287a7ef"
+  integrity sha512-jrEPzRV5B7wfRiN0UYMtjgIx1Hp8MRHdLcMYqMNd0DoOe1CB5JmPL/04I7WPuuApCs7LCSisYK/FfKnPEaJrzw==
   dependencies:
-    ast-types "0.13.1"
+    ast-types "0.14.1"
     esprima "~4.0.0"
     private "^0.1.8"
     source-map "~0.6.1"
+    tslib "^2.0.1"
 
 regenerate-unicode-properties@^8.0.2:
   version "8.1.0"
@@ -7812,6 +7815,11 @@ tslib@^1.9.0, tslib@^1.9.3:
   version "1.10.0"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.10.0.tgz#c3c19f95973fb0a62973fb09d90d961ee43e5c8a"
   integrity sha512-qOebF53frne81cf0S9B41ByenJ3/IuH8yJKngAX35CmiZySA0khhkovshKK+jGCaMnVomla7gVlIcc3EvKPbTQ==
+
+tslib@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.0.1.tgz#410eb0d113e5b6356490eec749603725b021b43e"
+  integrity sha512-SgIkNheinmEBgx1IUNirK0TUD4X9yjjBRTqqjggWCU3pUEqIk3/Uwl3yRixYKT6WjQuGiwDv4NomL3wqRCj+CQ==
 
 tty-browserify@0.0.0:
   version "0.0.0"
